@@ -1,0 +1,11 @@
+{
+   "data":[2.3,2.5,8,4,5.4,5.2,4.3,10,2.3,3.2,1.2,4.5,3.6,7.2,4.3,4.8,4.3],
+   "title":"Youngs Modulus Bootstrap Analysis",
+   "parname": "Youngs modulus",
+   "parunit": "-",
+   "ref1": "Dummy soil data, imaginary but representative",
+   "ref2": "Davison, A.C., Hinkley, D.V. (1997). Bootstrap methods and their application, Cambridge University Press.",
+   "bootstrap_total":10000,
+   "bootstrap_single":8,
+   "confidence_interval":95
+}
