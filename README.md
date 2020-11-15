@@ -13,7 +13,7 @@ This public repository shows several examples of how different analyses can be p
 The public version of *MOLE* can be used for many examples. However, in some cases adaptations might be required (for instance adding a limit state for direct reliability analyses). Please [reach out](https://joostremmers.nl/menu_reach_out.html) in case you would like an added functionality or an update to the API.
 
 #### DEPENDENCIES
-*MOLE* is a web-API which means there are very little Python packages required:
+*MOLE* is a web-API which means there are very little (and standard) Python packages required:
 * Requests
 * JSON
 * Base64
