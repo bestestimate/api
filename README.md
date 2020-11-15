@@ -1,51 +1,41 @@
-## MOLE (PUBLIC REPOSITORY)
+# BEST ESTIMATE - MOLE (PUBLIC)
+> Here goes your awesome project description!
 
-##### 1. Introduction
+## Table of contents
+* [Introduction](#introduction)
+* [Before you start](#before-you-start)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Contact](#contact)
 
-This repository contains the following examples of usage of the web-API *MOLE*.
+## Before you start
+Add more general information about project. What the purpose of the project is? Motivation?
 
-Please note that before usage a username and password should be obtained via www.bestestimate.nl
+## Screenshots
+![Example screenshot](./img/screenshot.png)
 
-##### 2. Examples
+## Technologies
+* Tech 1 - version 1.0
+* Tech 2 - version 2.0
+* Tech 3 - version 3.0
 
-* Parameter estimates are often too conservative due to misunderstanding of variability.
+## Setup
+Describe how to install / setup your local environement / add link to demo version.
 
-* Limited understanding of variability in input and safety in design leads to uninformed decision making.
+## Features
+List of features ready and TODOs for future development
+* Awesome feature 1
+* Awesome feature 2
+* Awesome feature 3
 
-* Estimates of parametric variability are often performed based on non-valid application of statistical methods.
+To-do list:
+* Wow improvement to be done 1
+* Wow improvement to be done 2
 
-* A proper variability analysis takes too much time to be easy to apply in current practice.
+## Status
+Project is: _in progress_, _finished_, _no longer continue_ and why?
 
-##### 3. How
-
-* Fast automated data extraction and parameter estimation according to industry standards.
-
-* Application of proven statistical methods and insight in validity of variability estimates.
-
-* Application of trusted engineering methodology according to industry standards.
-
-* Crystal clear visualizations of process and outcomes variability studies.
-
-* Output generation for easy incorporation in design and sharing possibilities with other parties.
-
-##### 4. What?
-
-* Variability estimates, confidence bounds and probability density functions for specific soil units in geotechncial datasets.
-
-* Random CPT generation based on several CPTs performed in the same soil unit.
-
-* Sensitivity analyses of foundation sizes based on probabilistic studies.
-
-* Risk assessment of individual operations to provide insight in workability of designs.
-
-* Interpretation and analysis of performed measurements as input for design.
-
-##### 5. Contact information
-
-You can reach me by:
-
-E-mail: joostremmers@gmail.com
-
-Phone: +316 22 86 12 80
-
-LinkedIn: [Personal Profile](https://www.linkedin.com/in/joost-remmers-b1457761/)
+## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
