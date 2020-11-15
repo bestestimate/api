@@ -1,4 +1,4 @@
-![Example screenshot](./img/logo.svg)
+![Example screenshot](./img/logo.png)
 
 Reliability analyses can range from small to large. Engineering can be based on statistics from start to finish.
 But most likely (and sometimes preferably) at critical intermediate steps in between. *MOLE* is a tailor made toolbox specifically developed to suit such demands. Please read more in detail on [this page](https://joostremmers.nl).
