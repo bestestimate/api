@@ -20,12 +20,12 @@ The public version of *MOLE* can be used for many examples. However, in some cas
 
 #### FEATURES
 The following features are currently available through the public version of *MOLE*:
+* Soil profile layer identification
 * Bootstrap analysis
 * Distribution fitting
 * Direct reliability analysis
 
 Work is ongoing to make the following analyses available:
-* Soil profile assessment
 * Parameter estimation over depth
 * Random field simulation of soil profiles
 
