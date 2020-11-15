@@ -10,6 +10,8 @@ This public repository shows several examples of how different analyses can be p
 2. Receive access codes and guidance for use of MOLE
 3. Fill in your input files and run the analysis in only 4 lines of code
 
+The public version of *MOLE* can be used for many examples. However, in some cases adaptations might be required (for instance adding a limit state for direct reliability analyses). Please [reach out](https://joostremmers.nl/menu_reach_out.html) in case you would like an added functionality or an update to the API.
+
 #### DEPENDENCIES
 *MOLE* is a web-API which means there are very little Python packages required:
 * Requests
@@ -20,7 +22,7 @@ This public repository shows several examples of how different analyses can be p
 The following features are currently available through the public version of *MOLE*:
 * Bootstrap analysis
 * Distribution fitting
-* Direct reliability analysis (please contact me in this case)
+* Direct reliability analysis
 
 Work is ongoing to make the following analyses available:
 * Soil profile assessment
