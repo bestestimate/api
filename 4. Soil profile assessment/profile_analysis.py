@@ -28,15 +28,15 @@ r = requests.get(url+"validate",headers={"Authorization":"Bearer "+str(access_to
 print('Request made by: '+r.json()['logged_in_as'])
 
 # ----------------------------------------------------------------------------
-# 2. CPT ANALYSIS
+# 2. PROFILE ANALYSIS ANALYSIS
 # ----------------------------------------------------------------------------
 
 # 2.1 Data import
 cpt_data = json.load(open('./input.json', 'r'))
 
 # 2.2 Validate and analyse data
-r = requests.post(url+"data_analysis",json=cpt_data,headers={"Authorization":"Bearer "+str(access_token)})
+r = requests.post(url+"profile_analysis",json=cpt_data,headers={"Authorization":"Bearer "+str(access_token)})
 print('\nIf this value: '+str(r.status_code)+' is equal to 200 your analysis is completed.\n')
 
 # 2.3 Convert string to bytes value and save
-create_image("./output",r.json()["image"])
+create_image("./output",r.json()["image_output"])
