@@ -26,7 +26,7 @@ The following features are currently available through the public version of *MO
 * Distribution fitting
 * Direct reliability analysis
 
-Works are ongoing to expand the features. Please check out [reach out](https://bestestimate.nl/ex_to_be_developed.html) for more information.
+Works are ongoing to expand the features. Please [check out this page](https://bestestimate.nl/ex_to_be_developed.html) for more information.
 
 #### CONTACT
 Created by [@joostremmers](https://joostremmers.nl/menu_reach_out.html) - reach out in case of questions.
