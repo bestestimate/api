@@ -26,6 +26,8 @@ The following features are currently available through the public version of *MO
 * Soil profile layer identification
 * Parameter estimation over depth with quantile regression
 
+\* *Note that for custom limit states a function needs to be added*
+
 Works are ongoing to expand the features. Please [check out this page](https://bestestimate.nl/ex_to_be_developed.html) for more information.
 
 #### CONTACT
