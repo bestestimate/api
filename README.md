@@ -29,4 +29,4 @@ The following features are currently available through the public version of *MO
 Works are ongoing to expand the features of this API. Please [check out this page](https://bestestimate.nl/ex_to_be_developed.html) for more information.
 
 #### CONTACT
-Created by [@joostremmers](https://joostremmers.nl/menu_reach_out.html) - reach out in case of questions, bugs or errors.
+Created by [@joostremmers](https://bestestimate.nl/index_myself.html) - reach out in case of questions, bugs or errors.
