@@ -1,4 +1,4 @@
-![Example screenshot](https://bestestimate.nl/images/header_github.png)
+![header_github](https://bestestimate.nl/images/header_github.png)
 
 Reliability analyses can range from small to large. Engineering can be based on statistics from start to finish.
 But most likely (and sometimes preferably) at critical intermediate steps in between. *MOLE* is a tailor made toolbox specifically developed to suit such demands. Please read more in detail on [this page](https://bestestimate.nl/menu_mole.html).
@@ -8,7 +8,7 @@ This public repository shows several examples of how different analyses can be p
 
 1. Subscribe on [this page](https://bestestimate.nl/menu_mole.html)
 2. Receive access codes and guidance for use of MOLE
-3. Fill in your input files and run the analysis in only 4 lines of code
+3. Fill in your input file and run the analysis in only 5 lines of code
 
 The public version of *MOLE* can be used for many examples. However, in some cases adaptations might be required (for instance adding a limit state for direct reliability analyses). Please [reach out](https://bestestimate.nl/menu_reach_out.html) in case you would like an added functionality or an update to the API.
 
