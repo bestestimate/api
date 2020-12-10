@@ -28,8 +28,8 @@ def create_logfile(filename,log_string):
 # 3. LOGIN (ONLY REQUIRED ONCE IN YOUR PROJECT)
 # ----------------------------------------------------------------------------
 
-# 3.1 Define login requirements
-url = "https://be-mole.bestestimate.nl/"
+# 3.1 Define login requirement
+url = "https://be-mole.herokuapp.com/"
 username = 'FILL IN USERNAME HERE'
 password = 'FILL IN PASSWORD HERE'
 

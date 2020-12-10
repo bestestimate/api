@@ -9,8 +9,8 @@
       "parname": "Angle of internal friction",
       "parunit": "phi",
       "ref1": "Dummy soil data, imaginary but representative",
-      "ref2": "ISO 2394:2015 General principles on reliability for structures",
       "bootstrap_total":10000,
       "bootstrap_single":8,
-      "confidence_interval":95
+      "confidence_interval":95,
+      "made_by": "AUTHOR NAME"
 }

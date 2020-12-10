@@ -1,5 +1,5 @@
 {
-   "pars":
+   "parameters":
    {
          "gam_s":[20,1],
          "gam_s_dist":"normal",
@@ -25,14 +25,14 @@
          "Hd_dist": "normal",
          "Hd_name": "Horizontal load",
          "Hd_unit": "kN",
-         "D": 5,
+         "D": 10,
          "D_dist": "deterministic",
          "D_name": "Diameter",
          "D_unit": "m"      },
       "title":"Direct reliability analysis of a shallow foundation",
       "ref1": "Dummy soil data, imaginary but representative",
-      "ref2": "ISO 2394:2015 General principles on reliability for structures",
-      "ref3": "DNVGL-RP-C212 Offshore soil mechanics and geotechnical engineering",
+      "ref2":"DNVGL, 2017, RP-C212 Offshore soil mechanics and geotechnical engineerings",
       "analysis_type":"geo_bearing_sand",
-      "analysis_size":1000000
+      "amount_of_simulations":1000000,
+      "made_by":"AUTHOR NAME"
 }
