@@ -29,9 +29,9 @@ def create_logfile(filename,log_string):
 # ----------------------------------------------------------------------------
 
 # 3.1 Define login requirement
-url = "https://be-mole.herokuapp.com/"
-username = 'FILL IN USERNAME HERE'
-password = 'FILL IN PASSWORD HERE'
+url = "http://mole.bestestimate.nl/"
+username = 'FILL IN YOUR USERNAME HERE'
+password = 'FILL IN YOUR PASSWORD HERE'
 
 # 3.2 Login
 login = requests.post(url+"login",json={"username":username,"password":password})

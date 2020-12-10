@@ -12,11 +12,17 @@ This public repository shows several examples of how different analyses can be p
 
 The public version of *MOLE* can be used for many examples. However, in some cases adaptations might be required (for instance adding a limit state for direct reliability analyses). Please [reach out](https://bestestimate.nl/menu_reach_out.html) in case you would like an added functionality or an update to the API.
 
-#### DEPENDENCIES
+#### REQUIREMENTS
 *MOLE* is a web-API which means there are very little dependencies. The examples provided in this repository use Python (any other language can be used as well). In Python the following packages are required for running the analyses (and retrieving the output).
 * Requests
 * JSON
 * Base64
+
+#### HOW DOES IT WORK?
+Every analysis works in the same way using 3 simple steps:
+1. Fill out the input file (see example pages)
+1. Login to the API (http://mole.bestestimate.nl/)
+1. Save your output
 
 #### FEATURES
 The following features are currently available through the public version of *MOLE*:
