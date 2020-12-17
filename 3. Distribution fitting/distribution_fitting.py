@@ -46,13 +46,27 @@ print(validate.json()["message"]) # Can always be requested to check the API res
 # ----------------------------------------------------------------------------
 
 # 4.1 Data import
-dist_data = json.load(open('./input.json','r'))
+dist_data = json.load(open('./input_fit.json','r'))
 
 # 4.2 Validate and analyse data
 analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_image("output_1",analysis.json()["image_output_1_png"],analysis.json()["image_output_1_pdf"])
-create_image("output_2",analysis.json()["image_output_2_png"],analysis.json()["image_output_2_pdf"])
-create_image("output_3",analysis.json()["image_output_3_png"],analysis.json()["image_output_3_pdf"])
-create_logfile("logfile",analysis.json()["log_string"])
+create_image("fit_bootstrap_qq",analysis.json()["image_output_1_png"],analysis.json()["image_output_1_pdf"])
+create_image("fit_distribution",analysis.json()["image_output_2_png"],analysis.json()["image_output_2_pdf"])
+create_image("fit_qq_overview",analysis.json()["image_output_3_png"],analysis.json()["image_output_3_pdf"])
+create_logfile("logfile_fit",analysis.json()["log_string"])
+
+# ----------------------------------------------------------------------------
+# 5. DISTRIBUTION FITTING (WITH DISTRIBUTION ALREADY SELECTED)
+# ----------------------------------------------------------------------------
+
+# 4.1 Data import
+dist_data = json.load(open('./input_selected.json','r'))
+
+# 4.2 Validate and analyse data
+analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+
+# 4.3 Convert strings to bytes value and save
+create_image("selected",analysis.json()["image_output_2_png"],analysis.json()["image_output_2_pdf"])
+create_logfile("logfile_selected",analysis.json()["log_string"])

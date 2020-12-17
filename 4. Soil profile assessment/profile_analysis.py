@@ -42,7 +42,7 @@ validate = requests.get(url+"validate",headers={"Authorization":"Bearer "+str(lo
 print(validate.json()["message"]) # Can always be requested to check the API response
 
 # ----------------------------------------------------------------------------
-# 4. PROFILE ANALYSIS
+# 4. PROFILE ANALYSIS (SELECTED LAYERS)
 # ----------------------------------------------------------------------------
 
 # 4.1 Data import
