@@ -54,4 +54,5 @@ analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorizati
 # 4.3 Convert strings to bytes value and save
 create_image("output_1",analysis.json()["image_output_1_png"],analysis.json()["image_output_1_pdf"])
 create_image("output_2",analysis.json()["image_output_2_png"],analysis.json()["image_output_2_pdf"])
+create_image("output_3",analysis.json()["image_output_3_png"],analysis.json()["image_output_3_pdf"])
 create_logfile("logfile",analysis.json()["log_string"])
