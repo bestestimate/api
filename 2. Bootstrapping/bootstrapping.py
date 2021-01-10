@@ -6,7 +6,7 @@ import base64
 # 1. FUNCTION TO CREATE IMAGE (ONLY DEFINE ONCE IN YOUR PROJECT)
 # ----------------------------------------------------------------------------
 
-def create_image(filename,image_png,image_pdf):
+def create_report(filename,image_png,image_pdf):
     image_bytes = image_png.replace("'", '""').encode('utf8')
     with open(filename+".png", "wb") as fh:
         fh.write(base64.decodebytes(image_bytes))
@@ -52,5 +52,5 @@ bootstrap_data = json.load(open('./input.json', 'r'))
 analysis = requests.post(url+"bootstrap",json=bootstrap_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_image("./output",analysis.json()["image_output_png"],analysis.json()["image_output_pdf"])
+create_report("./report",analysis.json()["report_png"],analysis.json()["report_pdf"])
 create_logfile("./logfile",analysis.json()["log_string"])

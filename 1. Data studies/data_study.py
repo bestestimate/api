@@ -6,7 +6,7 @@ import base64
 # 1. FUNCTION TO CREATE IMAGE (ONLY DEFINE ONCE IN YOUR PROJECT)
 # ----------------------------------------------------------------------------
 
-def create_image(filename,image_png,image_pdf):
+def create_report(filename,image_png,image_pdf):
     image_bytes = image_png.replace("'", '""').encode('utf8')
     with open(filename+".png", "wb") as fh:
         fh.write(base64.decodebytes(image_bytes))
@@ -52,8 +52,8 @@ cpt_data = json.load(open('./input_withouth_specified_layers.json', 'r'))
 analysis = requests.post(url+"cpt_data",json=cpt_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_image("./output_identification",analysis.json()["image_output_png"],analysis.json()["image_output_pdf"])
-create_logfile("./logfile_identification",analysis.json()["log_string"])
+create_report("./report",analysis.json()["report_png"],analysis.json()["report_pdf"])
+create_logfile("./logfile",analysis.json()["log_string"])
 
 # ----------------------------------------------------------------------------
 # 5. CPT ANALYSIS (WITH YOUR OWN LAYER IDENTIFICATION)
@@ -66,5 +66,5 @@ cpt_data = json.load(open('./input_with_specified_layers.json', 'r'))
 analysis = requests.post(url+"cpt_data",json=cpt_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
 
 # 5.3 Convert strings to bytes value and save
-create_image("./output_no_identification",analysis.json()["image_output_png"],analysis.json()["image_output_pdf"])
-create_logfile("./logfile_no_identification",analysis.json()["log_string"])
+create_report("./report (without identification)",analysis.json()["report_png"],analysis.json()["report_pdf"])
+create_logfile("./logfile (without identification)",analysis.json()["log_string"])
