@@ -6,7 +6,7 @@ import base64
 # 1. FUNCTION TO CREATE IMAGE (ONLY DEFINE ONCE IN YOUR PROJECT)
 # ----------------------------------------------------------------------------
 
-def create_report(filename,image_png,image_pdf):
+def create_image(filename,image_png,image_pdf):
     image_bytes = image_png.replace("'", '""').encode('utf8')
     with open(filename+".png", "wb") as fh:
         fh.write(base64.decodebytes(image_bytes))
@@ -30,8 +30,8 @@ def create_logfile(filename,log_string):
 
 # 3.1 Define login requirement
 url = "http://mole.bestestimate.nl/"
-username = 'FILL IN YOUR USERNAME HERE'
-password = 'FILL IN YOUR PASSWORD HERE'
+username = 'USERNAME'
+password = 'PASSWORD'
 
 # 3.2 Login
 login = requests.post(url+"login",json={"username":username,"password":password})
@@ -52,21 +52,21 @@ dist_data = json.load(open('./input_fit.json','r'))
 analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_report("report_1",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
-create_report("report_2",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
-create_report("report_3",analysis.json()["report_3_png"],analysis.json()["report_3_pdf"])
+create_image("fit_bootstrap_qq",analysis.json()["report_1_png"],analysis.json()["report_2_pdf"])
+create_image("fit_distribution",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
+create_image("fit_qq_overview",analysis.json()["report_3_png"],analysis.json()["report_3_pdf"])
 create_logfile("logfile_fit",analysis.json()["log_string"])
 
 # ----------------------------------------------------------------------------
 # 5. DISTRIBUTION FITTING (WITH DISTRIBUTION ALREADY SELECTED)
 # ----------------------------------------------------------------------------
 
-# 4.1 Data import
+# 5.1 Data import
 dist_data = json.load(open('./input_selected.json','r'))
 
-# 4.2 Validate and analyse data
+# 5.2 Validate and analyse data
 analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
 
-# 4.3 Convert strings to bytes value and save
-create_report("report_2 (dist selected by user)",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
-create_logfile("logfile (dist selected by user)",analysis.json()["log_string"])
+# 5.3 Convert strings to bytes value and save
+create_image("selected",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
+create_logfile("logfile_selected",analysis.json()["log_string"])

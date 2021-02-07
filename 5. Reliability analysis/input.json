@@ -25,7 +25,7 @@
          "Hd_dist": "normal",
          "Hd_name": "Horizontal load",
          "Hd_unit": "kN",
-         "D": 10,
+         "D": 6.5,
          "D_dist": "deterministic",
          "D_name": "Diameter",
          "D_unit": "m"      },
@@ -34,5 +34,5 @@
       "ref2":"DNVGL, 2017, RP-C212 Offshore soil mechanics and geotechnical engineerings",
       "analysis_type":"geo_bearing_sand",
       "amount_of_simulations":1000000,
-      "made_by":"AUTHOR NAME"
+      "made_by":"Joost Remmers"
 }
