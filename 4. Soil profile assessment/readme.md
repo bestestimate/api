@@ -1,11 +1,11 @@
-### **DATA STUDY - CONE PENETRATION TEST DATA**
+### **SOIL PROFILE ASSESSMENT**
 
-This readme provides a description of the CPT data study functionality.
+This readme provides a description of the distribution fitting functionality.
 
 #### **1. DESCRIPTION**
 
-Performs Robertson classification and layer identification based on the input   
-of CPT data and returns reports and identified layers.
+Performs soil profiling based on a quantile regression analysis and    
+provided parametric correlations with CPT data provided.
 
 #### **2. INPUT**
 
@@ -19,22 +19,20 @@ The following input is required to run the analysis:
 **d :**  depth array in m   
 **qc :** cone resistance array in MPa (same length as d)   
 **fs :** shaft resistance array in MPa (same length as d)
+**layers :** layers provided by the user (corresponding to depth array in m)
 
-Example input files are provided in:
-
-* *input_with_specified_layers.json* (excluding layer identification)
-* *input_withouth_specified_layers.json* (including layer identification)
+Example input files are provided in *input.json*.
 
 ##### **2.2 OPTIONAL**
 
 The following input is optional and improves or completes the analysis:
 
-**title :** title of the analysis provided by user  
-**ref1:** reference provided by the user  
+**title :** title of the analysis provided by user     
+**ref1:** reference provided by the user    
 **made_by :** name of the user  
-**layers :** array with depth points of layers identified in m
+**confidence_interval :** confidence interval used as integer (standard 95%)   
 
-More references can be provided by ref2, ref3 (and onwards).
+More references can be provided by keywords **ref2**, **ref3** (and onwards).
 
 #### **3. RETURNS**
 
@@ -47,11 +45,3 @@ If the input is passed to the API correctly the following items will return:
 
 The reports and logfiles are passed in bytes. Conversion functions are provided   
 in *example.py*.
-
-#### **4. NOTES**
-
-Please note the following regarding the analysis:
-
-* The moving bandwidth window applied is 0.3 m
-* The layers smaller than 0.2 m are ignored in the analysis
-* Correction of the analysis is possible via the input argument **layers**

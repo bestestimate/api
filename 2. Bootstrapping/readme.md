@@ -39,10 +39,10 @@ More references can be provided by keywords **ref2**, **ref3** (and onwards).
 
 If the input is passed to the API correctly the following items will return:
 
-**results :** Library with the results of the analysis   
+**results :** library with the results of the analysis   
 **report_1_png :** PNG output report in bytes (to be converted by user)   
 **report_1_pdf :** PDF output report in bytes (to be converted by user)   
-**log_string :** Logfile with the computational steps and details (see example)
+**log_string :** logfile with the computational steps and details (see example)
 
 The reports and logfiles are passed in bytes. Conversion functions are provided   
 in *example.py*.
