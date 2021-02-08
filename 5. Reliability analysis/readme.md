@@ -18,8 +18,8 @@ found in the JSON files in this folder.
 
 The following input is required to run the analysis:
 
-**parameters :**  parametric distributions provided (see *input.json*)
-**analysis_type :** type of analysis (specific name to be performed)
+**parameters :**  parametric distributions provided (see *input.json*)  
+**analysis_type :** type of analysis (specific name to be performed)   
 **amount_of_simulations :** amount of simulations to be performed
 
 An example input file is provided in *input.json*.

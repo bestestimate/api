@@ -9,6 +9,8 @@ This readme provides a description of the CPT data study functionality.
 Performs Robertson classification and layer identification based on the input   
 of CPT data and returns reports and identified layers.
 
+**API ENDPOINT :** htttp://http://mole.bestestimate.nl/cpt_data
+
 #### **2. INPUT**
 
 The following input is required from the user in a .JSON file. Examples can be   
