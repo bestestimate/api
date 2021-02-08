@@ -1,10 +1,10 @@
 ### **DISTRIBUTION FITTING**
 
-This readme provides a description of the bootstrapping functionality.
+This readme provides a description of the distribution fitting functionality.
 
 #### **1. DESCRIPTION**
 
-Performs a distribution fitting analysis based on provided input data and
+Performs a distribution fitting analysis based on provided input data and   
 a bootstrap and quantile quantile analysis.
 
 #### **2. INPUT**
@@ -26,7 +26,7 @@ Example input files are provided in *input.json*.
 
 The following input is optional and improves or completes the analysis:
 
-**selected_dist :** pre-selected distribution (uniform, normal, exponential)
+**selected_dist :** pre-selected distribution (uniform, normal, exponential)   
 **parname :** name of the parameter   
 **parunit :** unit of the parameter   
 **confidence_interval :** confidence interval used as integer (standard 95%)   
