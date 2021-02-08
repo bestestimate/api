@@ -18,7 +18,7 @@ The following input is required to run the analysis:
 
 **d :**  depth array in m   
 **qc :** cone resistance array in MPa (same length as d)   
-**fs :** shaft resistance array in MPa (same length as d)
+**fs :** shaft resistance array in MPa (same length as d)   
 **layers :** layers provided by the user (corresponding to depth array in m)
 
 Example input files are provided in *input.json*.
@@ -45,3 +45,15 @@ If the input is passed to the API correctly the following items will return:
 
 The reports and logfiles are passed in bytes. Conversion functions are provided   
 in *example.py*.
+
+
+#### **4. NOTES**
+
+Please note the following regarding the analysis:
+
+* If layers are not provided the layer identification algorithm is used
+* Density estimated according to Robertson 1990
+* Undrained shear strength estimated with factor (Nk) of 14
+* Friction angle estimated based on Bolton XXX???
+
+It is possible to add customized formulations. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.
