@@ -9,6 +9,8 @@ This readme provides a description of the direct reliability analysis.
 Performs a direct reliability analysis for a limit state function based   
 on the input of the user provided and the parametric variabilities.
 
+*API ENDPOINT : http://mole.bestestimate.nl/reliability_analysis*
+
 #### **2. INPUT**
 
 The following input is required from the user in a .JSON file. Examples can be   

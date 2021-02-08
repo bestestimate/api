@@ -9,6 +9,8 @@ This readme provides a description of the distribution fitting functionality.
 Performs a distribution fitting analysis based on provided input data and   
 a bootstrap and quantile quantile analysis.
 
+*API ENDPOINT : http://mole.bestestimate.nl/distribution*
+
 #### **2. INPUT**
 
 The following input is required from the user in a .JSON file. Examples can be   

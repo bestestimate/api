@@ -9,6 +9,8 @@ This readme provides a description of the bootstrapping functionality.
 Performs bootstrap analysis based on provided input data array and user
 specific sampling requests.
 
+*API ENDPOINT : http://mole.bestestimate.nl/bootstrap*
+
 #### **2. INPUT**
 
 The following input is required from the user in a .JSON file. An example can be   

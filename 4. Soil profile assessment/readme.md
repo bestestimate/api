@@ -9,6 +9,8 @@ This readme provides a description of the soil profile assessment functionality.
 Performs soil profiling based on a quantile regression analysis and    
 provided parametric correlations with CPT data provided.
 
+*API ENDPOINT : http://mole.bestestimate.nl/profile_analysis*
+
 #### **2. INPUT**
 
 The following input is required from the user in a .JSON file. Examples can be   
