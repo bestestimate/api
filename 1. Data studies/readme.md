@@ -1,4 +1,5 @@
 ### **DATA STUDY - CONE PENETRATION TEST DATA**
+***
 
 This readme provides a description of the CPT data study functionality.
 
@@ -46,7 +47,8 @@ If the input is passed to the API correctly the following items will return:
 **report_1_pdf :** PDF output report in bytes (to be converted by user)   
 **log_file :** Logfile with the computational steps and details (see example)
 
-The reports and logfiles are passed in bytes. Functions for converting are provided.
+The reports and logfiles are passed in bytes. Conversion functions are provided   
+in *example.py*.
 
 
 #### 4. NOTES
