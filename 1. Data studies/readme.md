@@ -1,3 +1,5 @@
+![header_github](https://bestestimate.nl/images/header_github.png)
+
 ### **DATA STUDY - CONE PENETRATION TEST DATA**
 
 This readme provides a description of the CPT data study functionality.

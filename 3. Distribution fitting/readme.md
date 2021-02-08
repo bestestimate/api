@@ -1,3 +1,5 @@
+![header_github](https://bestestimate.nl/images/header_github.png)
+
 ### **DISTRIBUTION FITTING**
 
 This readme provides a description of the distribution fitting functionality.
@@ -51,3 +53,7 @@ If the input is passed to the API correctly the following items will return:
 
 The reports and logfiles are passed in bytes. Conversion functions are provided   
 in *example.py*.
+
+#### **4. NOTES**
+
+It is possible to add additional distributions. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.

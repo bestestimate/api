@@ -1,3 +1,5 @@
+![header_github](https://bestestimate.nl/images/header_github.png)
+
 ### **BOOTSTRAPPING**
 
 This readme provides a description of the bootstrapping functionality.
