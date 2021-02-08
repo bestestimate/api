@@ -24,16 +24,16 @@ Every analysis works in the same way using simple steps:
 1. Login to the API with your received details (http://mole.bestestimate.nl/)
 1. Receive your authorization token for further works
 1. Send your input to the API endpoint and wait for the results
-1. Save your output reports, logfiles or work further with the outcomes
+1. Save your output reports, logfiles or work further with the outcomes  
 See the folders with examples to check login and API procedures.
 
 #### FEATURES
 The following features are currently available through the public version of *MOLE*:
-* Soil profile layer identification based on CPT data
-* Bootstrap analysis
-* Distribution fitting
-* Parameter estimation over depth with quantile regression
-* Direct reliability analysis 
+1. Soil profile layer identification based on CPT data
+1. Bootstrap analysis
+1. Distribution fitting
+1. Parameter estimation over depth with quantile regression
+1. Direct reliability analysis
 
 Works are ongoing to expand the amount of features. Please [check out this page](https://bestestimate.nl/ex_to_be_developed.html) for more information.
 
