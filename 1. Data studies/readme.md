@@ -31,12 +31,11 @@ Example input files are provided in:
 The following input is optional and improves or completes the analysis:
 
 **title :** title of the analysis provided by user  
-**ref 1:** reference provided by the user  
+**ref1:** reference provided by the user  
 **made_by :** name of the user  
 **layers :** array with depth points of layers identified in m
 
-When the user provides layers the layer identification step of the algorithm
-is skipped.
+More references can be provided by ref2, ref3 (and onwards).
 
 #### **3. RETURNS**
 
