@@ -1,34 +1,28 @@
-# DATA STUDY - CONE PENETRATION TEST DATA
+### **DATA STUDY - CONE PENETRATION TEST DATA**
 
 This readme describes how to use the cone penetration test data study
 functionality in *MOLE*. Refer to the main page for a generic introduction to
 usage of the API.
 
-#### DESCRIPTION
+#### 1. DESCRIPTION
 
 Performs Robertson classification and layer identification based on the
 user input of CPT data.
 
-#### INPUT
+#### 2. INPUT
 
 The following input is required from the user in a .JSON file. Examples can
 be found in the JSON files in this folder.
 
-##### REQUIRED
+##### 2.1 REQUIRED
 
 The following input is required to run the analysis:
 
-* d: Depth array in m
+**d :**  Depth array in m
 * qc: Cone resistance array in MPa (same length as d)
-* fs: Shaft resistance array in MPa (same length as d)
+fs: Shaft resistance array in MPa (same length as d)
 
-Letter | Digit | Character
------- | ------|----------
-a      | 4     | $
-       | 365   | (
-b      |       | ^  
-
-##### OPTIONAL
+##### 2.2 OPTIONAL
 
 The following input is optional and improves or completes the analysis:
 
@@ -40,7 +34,7 @@ The following input is optional and improves or completes the analysis:
 When the user provides layers the layer identification step of the algorithm
 is skipped. This allows for correction as well as skipping this part.
 
-#### RETURNS
+#### 3. RETURNS
 
 If the input is passed to the API correctly the following items will return:
 
@@ -49,6 +43,6 @@ If the input is passed to the API correctly the following items will return:
 * report_1_pdf: PDF output report in bytes (to be converted by user)
 * log_file: Logfile with the computational steps and details (see example)
 
-#### NOTES
+#### 4. NOTES
 
 Please note that the xx
