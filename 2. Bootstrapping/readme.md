@@ -16,8 +16,8 @@ found in the JSON file in this folder.
 
 The following input is required to run the analysis:
 
-**data :**  data array with values
-**bootstrap_total :** number of bootstraps to be performed
+**data :**  data array with values   
+**bootstrap_total :** number of bootstraps to be performed   
 **boostrap_single :** amount of samples per bootstrap analysis
 
 Example input files are provided in *input.json*.
@@ -26,15 +26,15 @@ Example input files are provided in *input.json*.
 
 The following input is optional and improves or completes the analysis:
 
-**parname :** name of the parameter
-**parunit :** unit of the parameter
-**confidence_interval :** confidence interval used as integer (standard 95%)
-**title :** title of the analysis provided by user  
-**ref1:** reference provided by the user  
+**parname :** name of the parameter   
+**parunit :** unit of the parameter   
+**confidence_interval :** confidence interval used as integer (standard 95%)   
+**title :** title of the analysis provided by user     
+**ref1:** reference provided by the user    
 **made_by :** name of the user  
 
-When the user provides layers the layer identification step of the algorithm
-More references can be provided by ref2, ref3 (and onwards).
+When the user provides layers the layer identification step of the algorithm   
+More references can be provided by keywords **ref2**, **ref3** (and onwards).
 
 #### **3. RETURNS**
 
