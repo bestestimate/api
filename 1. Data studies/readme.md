@@ -3,17 +3,17 @@
 
 This readme provides a description of the CPT data study functionality.
 
-#### 1. DESCRIPTION
+#### **1. DESCRIPTION**
 
 Performs Robertson classification and layer identification based on the input   
 of CPT data and returns reports and identified layers.
 
-#### 2. INPUT
+#### **2. INPUT**
 
 The following input is required from the user in a .JSON file. Examples can be   
 found in the JSON files in this folder.
 
-##### 2.1 REQUIRED
+##### **2.1 REQUIRED**
 
 The following input is required to run the analysis:
 
@@ -26,7 +26,7 @@ Example input files are provided in:
 * *input_with_specified_layers.json* (excluding layer identification)
 * *input_withouth_specified_layers.json* (including layer identification)
 
-##### 2.2 OPTIONAL
+##### **2.2 OPTIONAL**
 
 The following input is optional and improves or completes the analysis:
 
@@ -38,7 +38,7 @@ The following input is optional and improves or completes the analysis:
 When the user provides layers the layer identification step of the algorithm
 is skipped.
 
-#### 3. RETURNS
+#### **3. RETURNS**
 
 If the input is passed to the API correctly the following items will return:
 
@@ -51,7 +51,7 @@ The reports and logfiles are passed in bytes. Conversion functions are provided
 in *example.py*.
 
 
-#### 4. NOTES
+#### **4. NOTES**
 
 Please note the following regarding the analysis:
 
