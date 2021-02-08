@@ -1,17 +1,17 @@
 ### **DATA STUDY - CONE PENETRATION TEST DATA**
-***
+
 
 This readme provides a description of the CPT data study functionality.
 
 #### 1. DESCRIPTION
 
-Performs Robertson classification and layer identification based on the
-user input of CPT data.
+Performs Robertson classification and layer identification based on the input   
+of CPT data and returns reports and identified layers.
 
 #### 2. INPUT
 
-The following input is required from the user in a .JSON file. Examples can
-be found in the JSON files in this folder.
+The following input is required from the user in a .JSON file. Examples can be   
+found in the JSON files in this folder.
 
 ##### 2.1 REQUIRED
 
