@@ -25,6 +25,7 @@ Every analysis works in the same way using simple steps:
 1. Receive your authorization token for further works
 1. Send your input to the API endpoint and wait for the results
 1. Save your output reports, logfiles or work further with the outcomes  
+
 See the folders with examples to check login and API procedures.
 
 #### FEATURES
