@@ -18,7 +18,12 @@ The following input is required to run the analysis:
 
 **d :**  depth array in m   
 **qc :** cone resistance array in MPa (same length as d)   
-**fs :** shaft resistance array in MPa (same length as d)   
+**fs :** shaft resistance array in MPa (same length as d)
+
+Example input files are provided in:
+
+* *input_with_specified_layers.json* (excluding layer identification)
+* *input_withouth_specified_layers.json* (including layer identification)
 
 ##### 2.2 OPTIONAL
 
@@ -36,10 +41,13 @@ is skipped.
 
 If the input is passed to the API correctly the following items will return:
 
-**results :** Library with the results of the analysis
-**report_1_png :** PNG output report in bytes (to be converted by user)
-**report_1_pdf :** PDF output report in bytes (to be converted by user)
+**results :** Library with the results of the analysis   
+**report_1_png :** PNG output report in bytes (to be converted by user)   
+**report_1_pdf :** PDF output report in bytes (to be converted by user)   
 **log_file :** Logfile with the computational steps and details (see example)
+
+The reports and logfiles are passed in bytes. Functions for converting are provided.
+
 
 #### 4. NOTES
 
@@ -47,4 +55,4 @@ Please note the following regarding the analysis:
 
 * The moving bandwidth window applied is 0.3 m
 * The layers smaller than 0.2 m are ignored in the analysis
-* Correction of the analysis is possible via the input **layers**
+* Correction of the analysis is possible via the input argument **layers**
