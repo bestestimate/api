@@ -19,10 +19,13 @@ The public version of *MOLE* can be used for many examples. However, in some cas
 * Base64
 
 #### HOW DOES IT WORK?
-Every analysis works in the same way using 3 simple steps:
-1. Fill out the input file (see example pages)
+Every analysis works in the same way using simple steps:
+1. Fill out the input file
 1. Login to the API with your received details (http://mole.bestestimate.nl/)
-1. Send your input to the API, run the analysis and save output!
+1. Receive your authorization token for further works
+1. Send your input to the API endpoint and wait for the results
+1. Save your output reports, logfiles or work further with the outcomes
+See the folders with examples to check login and API procedures.
 
 #### FEATURES
 The following features are currently available through the public version of *MOLE*:
