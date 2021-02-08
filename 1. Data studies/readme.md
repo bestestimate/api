@@ -22,6 +22,12 @@ The following input is required to run the analysis:
 * qc: Cone resistance array in MPa (same length as d)
 * fs: Shaft resistance array in MPa (same length as d)
 
+Letter | Digit | Character
+------ | ------|----------
+a      | 4     | $
+       | 365   | (
+b      |       | ^  
+
 ##### OPTIONAL
 
 The following input is optional and improves or completes the analysis:
