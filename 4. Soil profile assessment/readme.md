@@ -1,5 +1,5 @@
 ![header_github](https://bestestimate.nl/images/header_github.png)
-***
+
 ### **SOIL PROFILE ASSESSMENT**
 
 This readme provides a description of the distribution fitting functionality.
@@ -28,7 +28,7 @@ Example input files are provided in *input.json*.
 
 The following input is optional and improves or completes the analysis:
 
-**layers :** layers provided by the user (corresponding to depth array in m)
+**layers :** layers provided by the user (corresponding to depth array in m)   
 **title :** title of the analysis provided by user     
 **ref1:** reference provided by the user    
 **made_by :** name of the user  
