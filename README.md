@@ -29,11 +29,11 @@ See the folders with examples to check login and API procedures.
 
 #### FEATURES
 The following features are currently available through the public version of *MOLE*:
-* Bootstrap analysis
-* Distribution fitting (Uniform, Gaussian, Exponential)
-* Direct reliability analysis (*[reach out](https://bestestimate.nl/menu_reach_out.html) for custom limit states*)
 * Soil profile layer identification based on CPT data
+* Bootstrap analysis
+* Distribution fitting
 * Parameter estimation over depth with quantile regression
+* Direct reliability analysis 
 
 Works are ongoing to expand the amount of features. Please [check out this page](https://bestestimate.nl/ex_to_be_developed.html) for more information.
 
