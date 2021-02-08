@@ -54,8 +54,8 @@ in *example.py*.
 Please note the following regarding the analysis:
 
 * If layers are not provided the layer identification algorithm is used
-* Density estimated according to Robertson 1990
+* Density estimated according to Robertson (2010)
 * Undrained shear strength estimated with factor (Nk) of 14
-* Friction angle estimated based on Bolton XXX???
+* Friction angle estimated based on Jamiolkowski (1988) and Bolton (1986)
 
 It is possible to add customized formulations. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.
