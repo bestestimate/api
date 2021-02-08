@@ -4,7 +4,7 @@ This readme describes how to use the cone penetration test data study
 functionality in *MOLE*. Refer to the main page for a generic introduction to
 usage of the API.
 
-### GOAL OF FUNCTIONALITY
+#### DESCRIPTION
 
 Performs Robertson classification and layer identification based on the
 user input of CPT data.
@@ -14,7 +14,7 @@ user input of CPT data.
 The following input is required from the user in a .JSON file. Examples can
 be found in the JSON files in this folder.
 
-## Required
+##### REQUIRED
 
 The following input is required to run the analysis:
 
@@ -22,7 +22,7 @@ The following input is required to run the analysis:
 * qc: Cone resistance array in MPa (same length as d)
 * fs: Shaft resistance array in MPa (same length as d)
 
-## Optional
+##### OPTIONAL
 
 The following input is optional and improves or completes the analysis:
 
