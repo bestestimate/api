@@ -1,7 +1,7 @@
 ![header_github](https://bestestimate.nl/images/header_github.png)
 
 Reliability analyses can range from small to large. Engineering can be based on statistics from start to finish.
-But most likely (and sometimes preferably) at critical intermediate steps in between. *MOLE* is a tailor made toolbox specifically developed to suit such demands. Please read more in detail on [this page](https://bestestimate.nl/menu_mole.html).
+But most likely (and sometimes preferably) at critical intermediate steps in between. *MOLE* is a tailor made API specifically developed to suit such demands. Please read more in detail on [this page](https://bestestimate.nl/menu_mole.html).
 
 #### BEFORE YOU START
 This public repository shows several examples of how different analyses can be performed using the currently released web-API. To execute these examples (or even better, your own reliability analysis) please follow these steps:
