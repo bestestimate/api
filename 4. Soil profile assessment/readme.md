@@ -35,6 +35,8 @@ The following input is optional and improves or completes the analysis:
 **ref1:** reference provided by the user    
 **made_by :** name of the user  
 **confidence_interval :** confidence interval used as integer (standard 95%)   
+**moving_box :** height of the moving box for the filtering algorithm in m   
+**layers :** array with depth points of layers identified in m
 
 More references can be provided by keywords **ref2**, **ref3** (and onwards).
 
