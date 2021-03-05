@@ -36,6 +36,7 @@ The following input is optional and improves or completes the analysis:
 **title :** title of the analysis provided by user  
 **ref1:** reference provided by the user  
 **made_by :** name of the user  
+**moving_box :** height of the moving box for the filtering algorithm in m 
 **layers :** array with depth points of layers identified in m
 
 More references can be provided by ref2, ref3 (and onwards).
