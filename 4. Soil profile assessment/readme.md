@@ -56,7 +56,10 @@ in *example.py*.
 
 Please note the following regarding the analysis:
 
+* Correction of the analysis is possible via the input argument **layers**
 * If layers are not provided the layer identification algorithm is used
+* The moving bandwidth window applied is standard 0.5 m
+* The layers smaller than 0.2 m are ignored in the analysis
 * Density estimated according to Robertson (2010)
 * Undrained shear strength estimated with factor (Nk) of 14
 * Friction angle estimated based on Jamiolkowski (1988) and Bolton (1986)

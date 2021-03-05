@@ -36,7 +36,7 @@ The following input is optional and improves or completes the analysis:
 **title :** title of the analysis provided by user  
 **ref1:** reference provided by the user  
 **made_by :** name of the user  
-**moving_box :** height of the moving box for the filtering algorithm in m   
+**moving_box :** height of the moving box for the filtering algorithm in m
 **layers :** array with depth points of layers identified in m
 
 More references can be provided by ref2, ref3 (and onwards).
@@ -57,6 +57,6 @@ in *example.py*.
 
 Please note the following regarding the analysis:
 
-* The moving bandwidth window applied is 0.3 m
+* The moving bandwidth window applied is standard 0.5 m
 * The layers smaller than 0.2 m are ignored in the analysis
 * Correction of the analysis is possible via the input argument **layers**
