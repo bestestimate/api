@@ -49,7 +49,7 @@ print(validate.json()["message"]) # Can always be requested to check the API res
 cpt_data = json.load(open('./input.json', 'r'))
 
 # 4.2 Validate and analyse data
-analysis = requests.post(url+"profile_analysis",json=cpt_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+analysis = requests.post(url+"profile_analysis",json=cpt_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 4.3 Convert string to bytes value and save
 create_image("output",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])

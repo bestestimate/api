@@ -38,7 +38,7 @@ login = requests.post(url+"login",json={"username":username,"password":password}
 print(login.json()["message"]) # Can always be requested to check the API response
 
 # 3.3 Validate access token
-validate = requests.get(url+"validate",headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+validate = requests.get(url+"validate",headers={"Authorization":str(login.json()['access_token'])})
 print(validate.json()["message"]) # Can always be requested to check the API response
 
 # ----------------------------------------------------------------------------
@@ -63,7 +63,7 @@ create_logfile("./logfile_identification",analysis.json()["log_string"])
 cpt_data = json.load(open('./input_with_specified_layers.json', 'r'))
 
 # 5.2 Validate and analyse data
-analysis = requests.post(url+"cpt_data",json=cpt_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+analysis = requests.post(url+"cpt_data",json=cpt_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 5.3 Convert strings to bytes value and save
 create_image("./output_no_identification",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])

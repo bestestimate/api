@@ -49,7 +49,7 @@ print(validate.json()["message"]) # Can always be requested to check the API res
 dist_data = json.load(open('./input_fit.json','r'))
 
 # 4.2 Validate and analyse data
-analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
 create_image("fit_bootstrap_qq",analysis.json()["report_1_png"],analysis.json()["report_2_pdf"])
@@ -65,7 +65,7 @@ create_logfile("logfile_fit",analysis.json()["log_string"])
 dist_data = json.load(open('./input_selected.json','r'))
 
 # 5.2 Validate and analyse data
-analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 5.3 Convert strings to bytes value and save
 create_image("selected",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
