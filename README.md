@@ -38,6 +38,5 @@ The following features are currently available through the public version of *MO
 
 Works are ongoing to expand the amount of features. Please [check out this page](https://bestestimate.nl/ex_to_be_developed.html) for more information.
 
-#### CONTACT
-Created by [@joostremmers](https://bestestimate.nl/index_myself.html) - reach out in case of questions or feedbback.
-
+#### CONTACT & LICENSE
+Created by [@joostremmers](https://bestestimate.nl/index_myself.html). For more information referens is made to [@this page](https://bestestimate.nl/index_disclaimer.html). Reach out in case of questions.
