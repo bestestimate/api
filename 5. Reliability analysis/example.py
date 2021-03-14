@@ -38,7 +38,7 @@ login = requests.post(url+"login",json={"username":username,"password":password}
 print(login.json()["message"]) # Can always be requested to check the API response
 
 # 3.3 Validate access token
-validate = requests.get(url+"validate",headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+validate = requests.get(url+"validate",headers={"Authorization":str(login.json()['access_token'])})
 print(validate.json()["message"]) # Can always be requested to check the API response
 
 # ----------------------------------------------------------------------------
@@ -52,6 +52,6 @@ reliability_data = json.load(open('./input.json','r'))
 analysis = requests.post(url+"reliability_analysis",json=reliability_data,headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_image("output_1_uncorrelated",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
-create_image("output_2_uncorrelated",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
+create_image("input_report",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
+create_image("output_report",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
 create_logfile("logfile",analysis.json()["log_string"])

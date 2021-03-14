@@ -38,7 +38,7 @@ login = requests.post(url+"login",json={"username":username,"password":password}
 print(login.json()["message"]) # Can always be requested to check the API response
 
 # 3.3 Validate access token
-validate = requests.get(url+"validate",headers={"Authorization":"Bearer "+str(login.json()['access_token'])})
+validate = requests.get(url+"validate",headers={"Authorization":str(login.json()['access_token'])})
 print(validate.json()["message"]) # Can always be requested to check the API response
 
 # ----------------------------------------------------------------------------
