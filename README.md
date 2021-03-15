@@ -6,7 +6,8 @@ But most likely (and sometimes preferably) at critical intermediate steps in bet
 #### BEFORE YOU START
 This public repository shows several examples of how different analyses can be performed using the currently released web-API. To execute these examples (or even better, your own reliability analysis) please follow these steps:
 
-1. Subscribe on [this page](https://bestestimate.nl/menu_mole.html)
+1. Subscribe on <a href="https://bestestimate.nl/menu_mole.html" target="_blank">this page</a>
+[this page](https://bestestimate.nl/menu_mole.html)
 2. Receive access codes and guidance for use of MOLE
 3. Fill in your input file and run the analysis in only 5 lines of code
 
