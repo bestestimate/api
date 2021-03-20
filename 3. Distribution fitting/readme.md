@@ -30,7 +30,7 @@ Example input files are provided in *input.json*.
 
 The following input is optional and improves or completes the analysis:
 
-**selected_dist :** pre-selected distribution (uniform, normal, exponential)   
+**selected_dist :** pre-selected distribution (uniform, normal, lognormal, exponential)   
 **parname :** name of the parameter   
 **parunit :** unit of the parameter   
 **confidence_interval :** confidence interval used as integer (standard 95%)   
