@@ -61,6 +61,6 @@ Please note the following regarding the analysis:
 * The layers smaller than 0.2 m are ignored in the analysis
 * Density estimated according to Robertson (2010)
 * Undrained shear strength estimated with factor (Nk) of 14
-* Friction angle estimated based on Jamiolkowski (1988) and Bolton (1986)
+* Friction angle estimated based on Jefferies and Been (2006)
 
 It is possible to add customized formulations. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.
