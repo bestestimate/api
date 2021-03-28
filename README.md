@@ -26,7 +26,7 @@ Every analysis works in the same way using simple steps:
 1. Send your input to the API endpoint and wait for the results
 1. Save your output reports, logfiles or work further with the outcomes  
 
-See the folders with examples to check login and API procedures.
+See the folders with examples to check login and API procedures or check out [this additional tutorial](https://bestestimate.nl/presentations/mole/index.html).
 
 #### FEATURES
 The following features are currently available through the public version of *MOLE*:
