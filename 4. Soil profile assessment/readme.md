@@ -37,6 +37,8 @@ The following input is optional and improves or completes the analysis:
 **confidence_interval :** confidence interval used as integer (standard 95%)   
 **moving_box :** height of the moving box for the filtering algorithm in m   
 **layers :** array with depth points of layers identified in m
+**undrained_shear_strength_factor :** array with undrained shear strength factor per layer
+**critical_volume_angle :** array with critical volume angle per layer
 
 More references can be provided by keywords **ref2**, **ref3** (and onwards).
 
