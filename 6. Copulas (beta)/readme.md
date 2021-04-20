@@ -25,10 +25,10 @@ The following input is required to run the analysis:
 
 Each parameter dataset can be provided with the following sub-entries:
 
-**data :**  samples
-**parname :**  name of the parameter
-**parunit :**  unit of the parameter
-**selected_dist :** pre-selected distribution (uniform, normal, lognormal, exponential)   
+**data :**  samples   
+**parname :**  name of the parameter   
+**parunit :**  unit of the parameter   
+**selected_dist :** pre-selected distribution (uniform, normal, lognormal, exponential)     
 
 Example input files are provided in *input.json*.
 
@@ -54,8 +54,7 @@ If the input is passed to the API correctly the following items will return:
 **report_2_pdf :** PDF output report in bytes (to be converted by user)   
 **log_string :** logfile with the computational steps and details (see example)
 
-The reports and logfiles are passed in bytes. Conversion functions are provided   
-in *example.py*.
+The reports and logfiles are passed in bytes. Conversion functions are provided in *example.py*.
 
 #### **4. NOTES**
 
