@@ -28,8 +28,8 @@ Example input files are provided in *input.json*.
 
 The following input is optional and improves or completes the analysis:
 
-**bootstrap_total :** number of bootstraps to be performed   (default 10.000)
-**boostrap_single :** amount of samples per bootstrap analysis (default is sample size)
+**bootstrap_total :** number of bootstraps to be performed   (default 10.000)    
+**boostrap_single :** amount of samples per bootstrap analysis (default is sample size)    
 **selected_dist :** pre-selected distribution (uniform, normal, lognormal, exponential)   
 **parname :** name of the parameter   
 **parunit :** unit of the parameter   
