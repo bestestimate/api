@@ -34,7 +34,8 @@ The following features are currently available through the public version of *MO
 1. Bootstrap analysis
 1. Distribution fitting
 1. Parameter estimation over depth with quantile regression
-1. Direct reliability analysis
+1. Direct reliability analysis 
+1. Copula analysis (beta)
 
 Works are ongoing to expand the amount of features. Please [check out this page](https://bestestimate.nl/ex_to_be_developed.html) for more information.
 
