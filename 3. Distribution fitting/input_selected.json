@@ -9,8 +9,6 @@
       "parname": "Angle of internal friction",
       "parunit": "phi",
       "ref1": "Dummy soil data, imaginary but representative",
-      "bootstrap_total":10000,
-      "bootstrap_single":8,
       "confidence_interval":95,
       "made_by": "AUTHOR NAME",
       "selected_dist":"uniform"

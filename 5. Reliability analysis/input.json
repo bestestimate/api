@@ -1,9 +1,9 @@
 {
    "parameters":
    {
-         "gam_s":[20,1],
+         "gam_s":[10,0.5],
          "gam_s_dist":"normal",
-         "gam_s_name":"Saturated unit weight",
+         "gam_s_name":"Effective unit weight",
          "gam_s_unit":"kN/m$^3$",
          "gam_w":9.81,
          "gam_w_dist":"deterministic",
@@ -13,11 +13,11 @@
          "phi_dist":"normal",
          "phi_name":"Angle of internal friction",
          "phi_unit":"deg",
-         "c":[4,0.5],
-         "c_dist":"normal",
+         "c":0.5,
+         "c_dist":"exponential",
          "c_name":"Cohesion",
          "c_unit":"kPa",
-         "Vd":[10000,200],
+         "Vd":[5000,200],
          "Vd_dist": "normal",
          "Vd_unit":"kN",
          "Vd_name": "Vertical load",
@@ -34,5 +34,5 @@
       "ref2":"DNVGL, 2017, RP-C212 Offshore soil mechanics and geotechnical engineerings",
       "analysis_type":"geo_bearing_sand",
       "amount_of_simulations":1000000,
-      "made_by":"Joost Remmers"
+      "made_by":"AUTHOR NAME"
 }
