@@ -46,7 +46,7 @@ print(validate.json()["message"]) # Can always be requested to check the API res
 # ----------------------------------------------------------------------------
 
 # 4.1 Data import
-reliability_data = json.load(open('./input.json','r'))
+reliability_data = json.load(open('./input_independent.json','r'))
 
 # 4.2 Validate and analyse data
 analysis = requests.post(url+"reliability_analysis",json=reliability_data,headers={"Authorization":str(login.json()['access_token'])})
