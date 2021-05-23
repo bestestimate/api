@@ -30,7 +30,7 @@ An example input file is provided in *input.json*.
 
 The following input is optional and improves or completes the analysis:
 
-**correlations :** list of two variables, correlation structure, parameter and rotation
+**correlations :** list of two variables, correlation structure, parameter and rotation  
   (example: ["gam_s","phi","frank",2,90])  
 **title :** title of the analysis provided by user     
 **ref1 :** reference provided by the user    
