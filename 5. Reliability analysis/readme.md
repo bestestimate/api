@@ -1,4 +1,4 @@
-![header_github](https://bestestimate.nl/images/header_github.png)
+![header_github](https://bestestimate.nl/static/images/header_github.png)
 
 ### **RELIABILITY ANALYSIS**
 
@@ -9,7 +9,7 @@ This readme provides a description of the direct reliability analysis.
 Performs a direct reliability analysis for a limit state function based   
 on the input of the user provided and the parametric variabilities.
 
-*API ENDPOINT : http://mole.bestestimate.nl/reliability_analysis*
+*API ENDPOINT : https://bestestimate.nl/reliability_analysis*
 
 #### **2. INPUT**
 
@@ -53,4 +53,4 @@ in *example.py*.
 
 #### **4. NOTES**
 
-It is possible to add customized **analysis_types**. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.
+It is possible to add customized **analysis_types**. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.

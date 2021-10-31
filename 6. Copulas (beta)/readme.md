@@ -1,4 +1,4 @@
-![header_github](https://bestestimate.nl/images/header_github.png)
+![header_github](https://bestestimate.nl/static/images/header_github.png)
 
 ### **COPULA ASSESSMENT (BETA)**
 
@@ -9,7 +9,7 @@ This readme provides a description of the joint variability assessment with copu
 Performs a distribution fitting analysis of copulas based on two provide input
 datasets.
 
-*API ENDPOINT : http://mole.bestestimate.nl/copulas*
+*API ENDPOINT : https://bestestimate.nl/copulas*
 
 #### **2. INPUT**
 
@@ -58,4 +58,4 @@ The reports and logfiles are passed in bytes. Conversion functions are provided 
 
 #### **4. NOTES**
 
-It is possible to add additional distributions. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.
+It is possible to add additional distributions. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.

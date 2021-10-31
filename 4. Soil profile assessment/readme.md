@@ -1,4 +1,4 @@
-![header_github](https://bestestimate.nl/images/header_github.png)
+![header_github](https://bestestimate.nl/static/images/header_github.png)
 
 ### **SOIL PROFILE ASSESSMENT**
 
@@ -9,7 +9,7 @@ This readme provides a description of the soil profile assessment functionality.
 Performs soil profiling based on a quantile regression analysis and    
 provided parametric correlations with CPT data provided.
 
-*API ENDPOINT : http://mole.bestestimate.nl/profile_analysis*
+*API ENDPOINT : https://bestestimate.nl/profile_analysis*
 
 #### **2. INPUT**
 
@@ -65,4 +65,4 @@ Please note the following regarding the analysis:
 * Undrained shear strength estimated with factor (Nk) of 14
 * Friction angle estimated based on Jefferies and Been (2006)
 
-It is possible to add customized formulations. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.
+It is possible to add customized formulations. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.

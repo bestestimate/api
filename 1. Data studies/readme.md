@@ -1,4 +1,4 @@
-![header_github](https://bestestimate.nl/images/header_github.png)
+![header_github](https://bestestimate.nl/static/images/header_github.png)
 
 ### **DATA STUDY - CONE PENETRATION TEST DATA**
 
@@ -9,7 +9,7 @@ This readme provides a description of the CPT data study functionality.
 Performs Robertson classification and layer identification based on the input   
 of CPT data and returns reports and identified layers.
 
-*API ENDPOINT : http://mole.bestestimate.nl/cpt_data*
+*API ENDPOINT : https://bestestimate.nl/cpt_data*
 
 #### **2. INPUT**
 

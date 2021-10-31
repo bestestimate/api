@@ -29,7 +29,7 @@ def create_logfile(filename,log_string):
 # ----------------------------------------------------------------------------
 
 # 3.1 Define login requirement
-url = "http://mole.bestestimate.nl/"
+url = "https://bestestimate.nl/"
 username = 'USERNAME'
 password = 'PASSWORD'
 

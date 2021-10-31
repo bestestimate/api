@@ -1,4 +1,4 @@
-![header_github](https://bestestimate.nl/images/header_github.png)
+![header_github](https://bestestimate.nl/static/images/header_github.png)
 
 ### **DISTRIBUTION FITTING**
 
@@ -9,7 +9,7 @@ This readme provides a description of the distribution fitting functionality.
 Performs a distribution fitting analysis based on provided input data and   
 a bootstrap and quantile quantile analysis.
 
-*API ENDPOINT : http://mole.bestestimate.nl/distribution*
+*API ENDPOINT : http://bestestimate.nl/distribution*
 
 #### **2. INPUT**
 
@@ -58,4 +58,4 @@ in *example.py*.
 
 #### **4. NOTES**
 
-It is possible to add additional distributions. Please [reach out](https://bestestimate.nl/menu_reach_out.html) if needed.
+It is possible to add additional distributions. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.

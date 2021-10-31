@@ -1,4 +1,4 @@
-![header_github](https://bestestimate.nl/images/header_github.png)
+![header_github](https://bestestimate.nl/static/images/header_github.png)
 
 ### **BOOTSTRAPPING**
 
@@ -9,7 +9,7 @@ This readme provides a description of the bootstrapping functionality.
 Performs bootstrap analysis based on provided input data array and user
 specific sampling requests.
 
-*API ENDPOINT : http://mole.bestestimate.nl/bootstrap*
+*API ENDPOINT : https://bestestimate.nl/bootstrap*
 
 #### **2. INPUT**
 
