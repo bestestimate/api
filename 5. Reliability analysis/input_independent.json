@@ -13,7 +13,7 @@
          "phi_dist":"normal",
          "phi_name":"Angle of internal friction",
          "phi_unit":"deg",
-         "c":0.5,
+         "c":[2,0.5],
          "c_dist":"exponential",
          "c_name":"Cohesion",
          "c_unit":"kPa",
