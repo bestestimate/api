@@ -19,14 +19,14 @@ The project is setup as a web-API which means there are very little dependencies
 * Base64
 
 #### HOW DOES IT WORK?
-Every analysis works in the same way using simple steps:
+Every analysis works in the same way using five simple steps:
 1. Fill out the input file
 1. Login to the API with your login details
 1. Receive your authorization token for the analysis
 1. Send your input to the API endpoint and wait for the results
 1. Save your output reports, logfiles or continue works with the outcomes  
 
-See the folders with examples to check login and API usage.
+The subfolders of this repository show examples for each API endpoint.
 
 #### API ENDPOINTS
 The following endpoints are currently available through the public version of the API:
