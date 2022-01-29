@@ -36,9 +36,10 @@ The following endpoints are currently available through the public version of th
 1. CPT-based layer identification
 1. Soil profiles by quantile regression
 1. Direct reliability analysis (of a shallow foundation)
-Works is continuously being improved and developed. Analysis marked with *(beta)* function properly but are still being tested.
 
-In a hurry for help? [Reach out](https://bestestimate.nl/reach_out) in case of questions!
+Works is continuously being improved and developed. Analysis marked with *(beta)* are available but will be extended and further tested in the future.
 
 #### CONTACT & LICENSE
-Created by [@joostremmers](https://www.linkedin.com/in/joost-remmers-b1457761). For usage information and license agreement reference is made to [this page](https://bestestimate.nl/disclaimer).
+Created by [@joostremmers](https://www.linkedin.com/in/joost-remmers-b1457761). In a hurry for help? [Reach out](https://bestestimate.nl/reach_out) in case of questions!
+
+For usage information and license agreement reference is made to [this page](https://bestestimate.nl/disclaimer).
