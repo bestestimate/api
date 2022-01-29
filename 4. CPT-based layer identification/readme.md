@@ -26,8 +26,8 @@ The following input is required to run the analysis:
 
 Example input files are provided in:
 
-* *input_with_specified_layers.json* (excluding layer identification)
-* *input_withouth_specified_layers.json* (including layer identification)
+* *input_with_specified_layers.json* (excluding optional layer identification algorithm)
+* *input_withouth_specified_layers.json* (including layer identification algorithm)
 
 ##### **2.2 OPTIONAL**
 
@@ -36,7 +36,7 @@ The following input is optional and improves or completes the analysis:
 **title :** title of the analysis provided by user  
 **ref1:** reference provided by the user  
 **made_by :** name of the user  
-**moving_box :** height of the moving box for the filtering algorithm in m
+**moving_box :** height of the moving box for the filtering algorithm in m  
 **layers :** array with depth points of layers identified in m
 
 More references can be provided by ref2, ref3 (and onwards).
