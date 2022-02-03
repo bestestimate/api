@@ -42,16 +42,15 @@ validate = requests.get(url+"validate",headers={"Authorization":str(login.json()
 print(validate.json()["message"]) # Can always be requested to check the API response
 
 # ----------------------------------------------------------------------------
-# 4. DIRECT RELIABILITY ANALYSIS
+# 4. PROFILE ANALYSIS (SELECTED LAYERS)
 # ----------------------------------------------------------------------------
 
 # 4.1 Data import
-reliability_data = json.load(open('./input_independent.json','r'))
+cpt_data = json.load(open('./input.json', 'r'))
 
 # 4.2 Validate and analyse data
-analysis = requests.post(url+"reliability_analysis",json=reliability_data,headers={"Authorization":str(login.json()['access_token'])})
+analysis = requests.post(url+"profile_analysis",json=cpt_data,headers={"Authorization":str(login.json()['access_token'])})
 
-# 4.3 Convert strings to bytes value and save
-create_image("input_report",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
-create_image("output_report",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
-create_logfile("logfile",analysis.json()["log_string"])
+# 4.3 Convert string to bytes value and save
+create_image("output",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
+create_logfile("./logfile",analysis.json()["log_string"])

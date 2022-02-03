@@ -46,13 +46,13 @@ print(validate.json()["message"]) # Can always be requested to check the API res
 # ----------------------------------------------------------------------------
 
 # 4.1 Data import
-cpt_data = json.load(open('./input_withouth_specified_layers.json', 'r'))
+cpt_data = json.load(open('./input_identification.json', 'r'))
 
 # 4.2 Validate and analyse data
 analysis = requests.post(url+"cpt_data",json=cpt_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_image("./output_identification",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
+create_image("./example_identification",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
 create_logfile("./logfile_identification",analysis.json()["log_string"])
 
 # ----------------------------------------------------------------------------
@@ -60,11 +60,11 @@ create_logfile("./logfile_identification",analysis.json()["log_string"])
 # ----------------------------------------------------------------------------
 
 # 5.1 Data import
-cpt_data = json.load(open('./input_with_specified_layers.json', 'r'))
+cpt_data = json.load(open('./input_no_identification.json', 'r'))
 
 # 5.2 Validate and analyse data
 analysis = requests.post(url+"cpt_data",json=cpt_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 5.3 Convert strings to bytes value and save
-create_image("./output_no_identification",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
+create_image("./example_no_identification",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
 create_logfile("./logfile_no_identification",analysis.json()["log_string"])

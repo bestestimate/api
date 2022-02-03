@@ -52,6 +52,6 @@ copula_data = json.load(open('./input.json','r'))
 analysis = requests.post(url+"copulas",json=copula_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_image("input_report",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
-create_image("output_report",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
+create_image("example_1",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
+create_image("example_2",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
 create_logfile("logfile",analysis.json()["log_string"])

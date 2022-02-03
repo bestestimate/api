@@ -52,5 +52,5 @@ bootstrap_data = json.load(open('./input.json', 'r'))
 analysis = requests.post(url+"bootstrap",json=bootstrap_data,headers={"Authorization":str(login.json()['access_token'])})
 
 # 4.3 Convert strings to bytes value and save
-create_image("./output",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
+create_image("./example",analysis.json()["report_1_png"],analysis.json()["report_1_pdf"])
 create_logfile("./logfile",analysis.json()["log_string"])
