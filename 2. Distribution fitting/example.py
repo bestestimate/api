@@ -30,11 +30,10 @@ def create_logfile(filename,log_string):
 
 # 3.1 Define login requirement
 url = "https://bestestimate.nl/"
-username = 'USERNAME'
-password = 'PASSWORD'
+key = 'FILL_IN_API_KEY_HERE'
 
 # 3.2 Login
-login = requests.post(url+"login",json={"username":username,"password":password})
+login = requests.post(url+"login",json={"key":key})
 print(login.json()["message"]) # Can always be requested to check the API response
 
 # 3.3 Validate access token
