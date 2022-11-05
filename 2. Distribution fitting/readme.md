@@ -34,6 +34,7 @@ The following input is optional and improves or completes the analysis:
 **parname :** name of the parameter   
 **parunit :** unit of the parameter   
 **confidence_interval :** confidence interval used as integer (standard 95%)   
+**truncated :** truncation of minimum and maximum values (list of two values)
 **title :** title of the analysis provided by user     
 **ref1:** reference provided by the user    
 **made_by :** name of the user  
@@ -58,4 +59,4 @@ in *example.py*.
 
 #### **4. NOTES**
 
-It is possible to add additional distributions. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.
+It is possible to add additional distributions. Truncation not yet possible for lognormal distributions. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.
