@@ -69,3 +69,18 @@ analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorizati
 # 5.3 Convert strings to bytes value and save
 create_image("example_selected",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
 create_logfile("logfile_selected",analysis.json()["log_string"])
+
+# ----------------------------------------------------------------------------
+# 6. DISTRIBUTION FITTING (TRUNCATED)
+# ----------------------------------------------------------------------------
+
+# 6.1 Data import
+dist_data = json.load(open('./input_truncated.json','r'))
+
+# 6.2 Validate and analyse data
+analysis = requests.post(url+"distribution",json=dist_data,headers={"Authorization":str(login.json()['access_token'])})
+
+# 6.3 Convert strings to bytes value and save
+create_image("example_truncated",analysis.json()["report_2_png"],analysis.json()["report_2_pdf"])
+create_logfile("logfile_truncated",analysis.json()["log_string"])
+
