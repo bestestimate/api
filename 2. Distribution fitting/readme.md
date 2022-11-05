@@ -39,7 +39,9 @@ The following input is optional and improves or completes the analysis:
 **ref1:** reference provided by the user    
 **made_by :** name of the user  
 
-More references can be provided by keywords **ref2**, **ref3** (and onwards).
+Please note that:
+* References can be provided by keywords **ref2**, **ref3** (and onwards)
+* Truncation cannot be applied to lognormal distributions
 
 #### **3. RETURNS**
 
@@ -59,4 +61,4 @@ in *example.py*.
 
 #### **4. NOTES**
 
-It is possible to add additional distributions. Truncation not yet possible for lognormal distributions. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.
+It is possible to add additional distributions. Please [reach out](https://bestestimate.nl/reach_out.html) if needed.
